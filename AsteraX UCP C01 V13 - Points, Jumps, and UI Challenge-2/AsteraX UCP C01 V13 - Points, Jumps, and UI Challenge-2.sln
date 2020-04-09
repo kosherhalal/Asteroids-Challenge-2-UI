@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteraX UCP C01 V13 - Points, Jumps, and UI Challenge-2", "AsteraX UCP C01 V13 - Points, Jumps, and UI Challenge-2.csproj", "{7E30B715-85B8-95E6-D75C-46E069145370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteraX UCP C01 V13 - Points, Jumps, and UI Challenge-2.Plugins", "AsteraX UCP C01 V13 - Points, Jumps, and UI Challenge-2.Plugins.csproj", "{F42B5404-A0E0-0A49-5EF7-41BDE3A247CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteraX UCP C01 V13 - Points, Jumps, and UI Challenge-2.Editor.Plugins", "AsteraX UCP C01 V13 - Points, Jumps, and UI Challenge-2.Editor.Plugins.csproj", "{8ABB9621-9B1B-EF38-F88C-357DF547E5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteraX UCP C01 V13 - Points, Jumps, and UI Challenge-2.Editor", "AsteraX UCP C01 V13 - Points, Jumps, and UI Challenge-2.Editor.csproj", "{DF9C6304-D4E8-03FB-5598-A25198E4D7EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E30B715-85B8-95E6-D75C-46E069145370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E30B715-85B8-95E6-D75C-46E069145370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E30B715-85B8-95E6-D75C-46E069145370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E30B715-85B8-95E6-D75C-46E069145370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42B5404-A0E0-0A49-5EF7-41BDE3A247CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42B5404-A0E0-0A49-5EF7-41BDE3A247CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42B5404-A0E0-0A49-5EF7-41BDE3A247CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42B5404-A0E0-0A49-5EF7-41BDE3A247CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABB9621-9B1B-EF38-F88C-357DF547E5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABB9621-9B1B-EF38-F88C-357DF547E5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABB9621-9B1B-EF38-F88C-357DF547E5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABB9621-9B1B-EF38-F88C-357DF547E5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9C6304-D4E8-03FB-5598-A25198E4D7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9C6304-D4E8-03FB-5598-A25198E4D7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9C6304-D4E8-03FB-5598-A25198E4D7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9C6304-D4E8-03FB-5598-A25198E4D7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
