@@ -12,26 +12,41 @@ public class Points_Manager : MonoBehaviour {
 
     #region Private values
     //private points value
-    private int points = 0;
+    int points = 0;
 
     #endregion
 
 
 
-    #region Properties
+    #region Constructors
     /// <summary>
     /// public property to access points (hopefully for UI)
     /// </summary>
-    public int Points
-    { 
-        get{ return points; }
+    public Points_Manager(int points)
+    {
+        this.points = points; 
+
+
     }
 
     #endregion
 
+
+    #region Properties
+    public int Points
+    {
+
+        get { return points; }
+
+    }
+    #endregion
+
+
     private void Start()
     {
         //constructor for accessing AsteroidsScrip
+        //THis needs to be edited
+        //cannot access AsteroidsScript
         asteroid_SO = new AsteroidsScriptableObject(); 
     }
     /// <summary>

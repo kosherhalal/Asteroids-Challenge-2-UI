@@ -10,16 +10,18 @@ using UnityEngine;
 
 public class Jump_Manager : MonoBehaviour
 {
-    AsteraX asteraX; 
+    AsteraX asteraX;
+
     //Jumps available
     [Tooltip("Set in editor")]
-    static public int Jumps = 5;
+    public int Jumps = 5;
     
     //Safe distance check for jump locaction from surrounding asteroids
     const float MIN_PLAYER_SHIP_JUMP_LOCATION_FROM_ASTEROIDS = 5;
 
+    
 
-    #region private
+    #region private fields 
 
     //stores the amount of jumps left
     //this is protected and is not accessable out side
@@ -33,6 +35,14 @@ public class Jump_Manager : MonoBehaviour
 
     #endregion
 
+    #region Constructor
+    public Jump_Manager(int jumpsLeft)
+    {
+
+        this.jumpsLeft = jumpsLeft; 
+
+    }
+    #endregion
 
 
     #region Public Properties
@@ -46,25 +56,25 @@ public class Jump_Manager : MonoBehaviour
         }
     }
 
-    
-    public int jumpsAvailable
+
+    public int JumpsLeft
     {
 
         get
         {
-
-            return jumpsLeft;
+            return jumpsLeft; 
         }
 
-
-
     }
-
+    /// <summary>
+    /// Public Properties
+    /// </summary>
     #endregion
 
 
     private void Start()
     {
+        //set jumpsLeft to jumps 
         jumpsLeft = Jumps;
     }
 
@@ -92,7 +102,7 @@ public class Jump_Manager : MonoBehaviour
 
         //if jumps are available or last
         //jump is used up 
-        if (jumpsAvailable >= 0)
+        if (jumpsLeft >= 0)
         {
 
             Debug.Log(JumpHandler());
@@ -101,7 +111,7 @@ public class Jump_Manager : MonoBehaviour
             gameObject.transform.position = JumpHandler(); 
 
 
-            Debug.Log("Total Jumps Left : " + jumpsAvailable); 
+            Debug.Log("Total Jumps Left : " + jumpsLeft); 
 
         }
         else

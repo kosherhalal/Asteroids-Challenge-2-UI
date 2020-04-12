@@ -281,6 +281,8 @@
     <Compile Include="Assets\__Scripts\TiltWithVelocity.cs" />
     <Compile Include="Assets\__Scripts\TurretPointAtMouse.cs" />
     <Compile Include="Assets\__Scripts\Vector3Extensions.cs" />
+    <Compile Include="Assets\JumpsLeft_Text.cs" />
+    <Compile Include="Assets\Points_Text.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
