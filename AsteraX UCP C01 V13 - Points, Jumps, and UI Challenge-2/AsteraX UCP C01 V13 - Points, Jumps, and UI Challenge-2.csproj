@@ -270,19 +270,20 @@
     <Compile Include="Assets\__Scripts\AsteroidsScriptableObject.cs" />
     <Compile Include="Assets\__Scripts\Bullet.cs" />
     <Compile Include="Assets\__Scripts\EnumFlagsAttributePropertyDrawer.cs" />
+    <Compile Include="Assets\__Scripts\GameOver_Manager.cs" />
     <Compile Include="Assets\__Scripts\Jump_Event.cs" />
     <Compile Include="Assets\__Scripts\Jump_Manager.cs" />
+    <Compile Include="Assets\__Scripts\JumpsLeft_Text.cs" />
     <Compile Include="Assets\__Scripts\OffScreenWrapper.cs" />
     <Compile Include="Assets\__Scripts\PlayerShip.cs" />
     <Compile Include="Assets\__Scripts\Points_Event.cs" />
     <Compile Include="Assets\__Scripts\Points_Manager.cs" />
+    <Compile Include="Assets\__Scripts\Points_Text.cs" />
     <Compile Include="Assets\__Scripts\ScaleSpriteToFillOrthographicCamera.cs" />
     <Compile Include="Assets\__Scripts\ScreenBounds.cs" />
     <Compile Include="Assets\__Scripts\TiltWithVelocity.cs" />
     <Compile Include="Assets\__Scripts\TurretPointAtMouse.cs" />
     <Compile Include="Assets\__Scripts\Vector3Extensions.cs" />
-    <Compile Include="Assets\JumpsLeft_Text.cs" />
-    <Compile Include="Assets\Points_Text.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

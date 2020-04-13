@@ -9,7 +9,9 @@ public class AsteraX : MonoBehaviour
     // Private Singleton-style instance. Accessed by static property S later in script
     static private AsteraX _S;
 
+    //set to public for the Points_Manager to access it 
     public static List<Asteroid>           ASTEROIDS;
+
     static List<Bullet>             BULLETS;
     
     const float MIN_ASTEROID_DIST_FROM_PLAYER_SHIP = 5;

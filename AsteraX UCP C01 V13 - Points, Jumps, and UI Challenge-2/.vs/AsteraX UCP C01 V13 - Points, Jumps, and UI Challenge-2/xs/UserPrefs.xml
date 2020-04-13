@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{7E30B715-85B8-95E6-D75C-46E069145370}|">
-  <MonoDevelop.Ide.ItemProperties.AsteraX_220UCP_220C01_220V13_220-_220Points_22C_220Jumps_22C_220and_220UI_220Challenge-2 PreferredExecutionTarget="9e29a079-4049-4688-bb52-588e8fec04ce" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Downloads/Exercise2-2/Exercise2/Rectangle.cs">
+  <MonoDevelop.Ide.ItemProperties.AsteraX_220UCP_220C01_220V13_220-_220Points_22C_220Jumps_22C_220and_220UI_220Challenge-2 PreferredExecutionTarget="c8dcd344-cea5-47ad-88f2-92535df38e1d" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/GameOver_Manager.cs">
     <Files>
-      <File FileName="Assets/Points_Text.cs" Line="16" Column="55" />
-      <File FileName="Assets/JumpsLeft_Text.cs" Line="10" Column="25" />
-      <File FileName="Assets/__Scripts/Jump_Manager.cs" Line="28" Column="12" />
-      <File FileName="Assets/__Scripts/Points_Manager.cs" Line="37" Column="27" />
-      <File FileName="../../../../Downloads/Exercise2-2/Exercise2/Rectangle.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/AsteraX.cs" Line="104" Column="29" />
+      <File FileName="Assets/__Scripts/Jump_Manager.cs" Line="135" Column="1" />
+      <File FileName="Assets/__Scripts/GameOver_Manager.cs" Line="31" Column="9" />
+      <File FileName="Assets/__Scripts/EnumFlagsAttributePropertyDrawer.cs" Line="15" Column="15" />
+      <File FileName="Assets/__Scripts/Points_Manager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

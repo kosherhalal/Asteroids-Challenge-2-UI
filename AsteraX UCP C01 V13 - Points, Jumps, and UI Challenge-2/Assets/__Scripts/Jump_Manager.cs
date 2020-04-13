@@ -36,12 +36,23 @@ public class Jump_Manager : MonoBehaviour
     #endregion
 
     #region Constructor
+
+    //jumpsLeft constructor
     public Jump_Manager(int jumpsLeft)
     {
 
         this.jumpsLeft = jumpsLeft; 
 
     }
+
+    //gameOver constructor
+    public Jump_Manager(bool isGameOver)
+    {
+
+        this.isGameOver = isGameOver; 
+
+    }
+
     #endregion
 
 
@@ -76,6 +87,8 @@ public class Jump_Manager : MonoBehaviour
     {
         //set jumpsLeft to jumps 
         jumpsLeft = Jumps;
+
+        
     }
 
 
