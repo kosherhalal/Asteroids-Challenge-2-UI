@@ -131,7 +131,8 @@ public class Jump_Manager : MonoBehaviour
         {
             //set gameover flag as true when lives are done
             //need to link this with the ENum state FLAGS
-            isGameOver = true; 
+            isGameOver = true;
+            Debug.Log("Game Over : " + isGameOver); 
 
         }
 
