@@ -19,6 +19,13 @@ public class Jump_Manager : MonoBehaviour
     //Safe distance check for jump locaction from surrounding asteroids
     const float MIN_PLAYER_SHIP_JUMP_LOCATION_FROM_ASTEROIDS = 5;
 
+    //delay before ship reappears from alternate dimension via Wormhole Jump Engine
+    //installed on ship 
+    float jumpDelay = 2f;
+
+    //counter 
+    float jumpDelay_Counter = 0f; 
+
     
 
     #region private fields 
@@ -107,7 +114,7 @@ public class Jump_Manager : MonoBehaviour
 
     void HandleAsteroidCollision()
     {
-
+        Vector3 jumpCoordinates = Vector3.zero; 
         //when collision is detected and
         //event is triggered, subtract one from
         //jumps left
@@ -121,7 +128,27 @@ public class Jump_Manager : MonoBehaviour
             Debug.Log(JumpHandler());
 
             //NEED TO USE A COROUTINE for delay and set ship as INACTIVE for a few seconds
-            gameObject.transform.position = JumpHandler(); 
+            
+
+            while(jumpDelay > jumpDelay_Counter)
+            {
+                gameObject.SetActive(false);
+
+                jumpDelay_Counter += Time.deltaTime;
+
+                if(jumpCoordinates == Vector3.zero)
+                {
+
+                    jumpCoordinates = JumpHandler(); 
+
+
+                }
+
+
+
+            }
+
+            gameObject.transform.position = jumpCoordinates; 
 
 
             Debug.Log("Total Jumps Left : " + jumpsLeft); 
@@ -160,6 +187,7 @@ public class Jump_Manager : MonoBehaviour
             Debug.Log("Searching for a safe Jump");
 
             i += 1; 
+
 
             //search for a position thats distance from the playership Keep looping if the position is less than the set distance and break when found
         } while ((pos - asteroidPosition).magnitude < MIN_PLAYER_SHIP_JUMP_LOCATION_FROM_ASTEROIDS);

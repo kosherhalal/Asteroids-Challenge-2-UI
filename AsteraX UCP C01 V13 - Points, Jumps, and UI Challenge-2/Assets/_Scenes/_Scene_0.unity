@@ -1547,3 +1547,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerShip: {fileID: 1199415303}
   restartDelay: 5
+  jump_Manager: {fileID: 1199415310}
